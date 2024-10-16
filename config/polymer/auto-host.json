@@ -1,0 +1,18 @@
+{
+  "_c1": "Enables Polymer's ResourcePack Auto Hosting",
+  "enabled": true,
+  "_c2": "Marks resource pack as required",
+  "required": true,
+  "_c3": "Type of resource pack provider. Default: 'polymer:automatic'",
+  "type": "polymer:automatic",
+  "_c4": "Configuration of type, see provider's source for more details",
+  "settings": {
+    "forced_address": ""
+  },
+  "_c5": "Message sent to clients before pack is loaded",
+  "message": "Цей сервер використовує пакет ресурсів для покращення ігрового процесу за допомогою спеціальних текстур і моделей.",
+  "_c6": "Disconnect message in case of failure",
+  "disconnect_message": "Не вдалося застосувати пакет ресурсів сервера!",
+  "external_resource_packs": [],
+  "setup_early": true
+}

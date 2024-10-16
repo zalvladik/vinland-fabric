@@ -1,0 +1,494 @@
+[14:20:00] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.7
+[14:20:00] [main/WARN]: Warnings were found!
+ - Mod 'Debugify' (debugify) 1.21+1.0 recommends any version of yet_another_config_lib_v3, which is missing!
+	 - You should install any version of yet_another_config_lib_v3 for the optimal experience.
+ - Mod 'Debugify' (debugify) 1.21+1.0 recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+[14:20:00] [main/INFO]: Loading 160 mods:
+	- achiopt 1.21-1.1.0
+	- almanac 1.0.2
+	- alternate-current 1.9.0
+	- architectury 13.0.8
+	- c2me 0.2.0+alpha.11.109+1.21
+	   |-- c2me-base 0.2.0+alpha.11.109+1.21
+	   |-- c2me-client-uncapvd 0.2.0+alpha.11.109+1.21
+	   |-- c2me-fixes-chunkio-threading-issues 0.2.0+alpha.11.109+1.21
+	   |-- c2me-fixes-general-threading-issues 0.2.0+alpha.11.109+1.21
+	   |-- c2me-fixes-worldgen-threading-issues 0.2.0+alpha.11.109+1.21
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.2.0+alpha.11.109+1.21
+	   |-- c2me-notickvd 0.2.0+alpha.11.109+1.21
+	   |-- c2me-opts-allocs 0.2.0+alpha.11.109+1.21
+	   |-- c2me-opts-chunk-access 0.2.0+alpha.11.109+1.21
+	   |-- c2me-opts-chunkio 0.2.0+alpha.11.109+1.21
+	   |-- c2me-opts-math 0.2.0+alpha.11.109+1.21
+	   |-- c2me-opts-scheduling 0.2.0+alpha.11.109+1.21
+	   |-- c2me-opts-worldgen-general 0.2.0+alpha.11.109+1.21
+	   |-- c2me-opts-worldgen-vanilla 0.2.0+alpha.11.109+1.21
+	   |-- c2me-rewrites-chunk-serializer 0.2.0+alpha.11.109+1.21
+	   |-- c2me-rewrites-chunkio 0.2.0+alpha.11.109+1.21
+	   |-- c2me-server-utils 0.2.0+alpha.11.109+1.21
+	   |-- c2me-threading-chunkio 0.2.0+alpha.11.109+1.21
+	   |-- c2me-threading-lighting 0.2.0+alpha.11.109+1.21
+	   |-- c2me-threading-worldgen 0.2.0+alpha.11.109+1.21
+	   |-- com_electronwill_night-config_core 3.6.5
+	   |-- com_electronwill_night-config_toml 3.6.5
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- net_objecthunter_exp4j 0.4.8
+	   \-- org_threadly_threadly 7.0
+	- chunky 1.4.14
+	- cloth-config 15.0.140
+	   \-- cloth-basic-math 0.6.1
+	- collective 7.84
+	- craterlib 2.1.1
+	- danse 1.0.4+1.21
+	   \-- bil 1.1.10+1.21
+	- deathbackup 3.4
+	- debugify 1.21+1.0
+	- dynmap 3.7-SNAPSHOT
+	- fabric-api 0.102.0+1.21
+	   |-- fabric-api-base 0.4.42+6573ed8cd1
+	   |-- fabric-api-lookup-api-v1 1.6.68+b5597344d1
+	   |-- fabric-biome-api-v1 13.0.29+5bd9f1bcd1
+	   |-- fabric-block-api-v1 1.0.22+0af3f5a7d1
+	   |-- fabric-block-view-api-v2 1.0.10+6573ed8cd1
+	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a7d1
+	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8cd1
+	   |-- fabric-command-api-v1 1.2.49+f71b366fd1
+	   |-- fabric-command-api-v2 2.2.28+6ced4dd9d1
+	   |-- fabric-commands-v0 0.2.66+df3654b3d1
+	   |-- fabric-content-registries-v0 8.0.16+b5597344d1
+	   |-- fabric-convention-tags-v1 2.0.19+7f945d5bd1
+	   |-- fabric-convention-tags-v2 2.5.0+c5e2b5c6d1
+	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a7d1
+	   |-- fabric-data-attachment-api-v1 1.1.27+6a6dfa19d1
+	   |-- fabric-data-generation-api-v1 20.2.16+16c4ae25d1
+	   |-- fabric-dimensions-v1 4.0.0+6fc22b99d1
+	   |-- fabric-entity-events-v1 1.6.12+6fc22b99d1
+	   |-- fabric-events-interaction-v0 0.7.12+ba9dae06d1
+	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd9d1
+	   |-- fabric-item-api-v1 11.0.0+afdfc921d1
+	   |-- fabric-item-group-api-v1 4.1.4+78017270d1
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a7d1
+	   |-- fabric-keybindings-v0 0.2.45+df3654b3d1
+	   |-- fabric-lifecycle-events-v1 2.3.12+6c1df360d1
+	   |-- fabric-loot-api-v2 3.0.14+3f89f5a5d1
+	   |-- fabric-loot-api-v3 1.0.2+3f89f5a5d1
+	   |-- fabric-message-api-v1 6.0.13+6573ed8cd1
+	   |-- fabric-model-loading-api-v1 2.0.0+fe474d6bd1
+	   |-- fabric-networking-api-v1 4.2.2+60c3209bd1
+	   |-- fabric-object-builder-api-v1 15.2.0+a551f7a4d1
+	   |-- fabric-particles-v1 4.0.2+6573ed8cd1
+	   |-- fabric-recipe-api-v1 5.0.12+65089712d1
+	   |-- fabric-registry-sync-v0 5.1.2+60c3209bd1
+	   |-- fabric-renderer-api-v1 3.4.0+c705a49cd1
+	   |-- fabric-renderer-indigo 1.7.0+c705a49cd1
+	   |-- fabric-renderer-registries-v1 3.2.68+df3654b3d1
+	   |-- fabric-rendering-data-attachment-v1 0.3.48+73761d2ed1
+	   |-- fabric-rendering-fluids-v1 3.1.6+b5597344d1
+	   |-- fabric-rendering-v0 1.1.71+df3654b3d1
+	   |-- fabric-rendering-v1 5.0.5+df16efd0d1
+	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b1d1
+	   |-- fabric-resource-loader-v0 1.3.0+56599129d1
+	   |-- fabric-screen-api-v1 2.0.24+b5597344d1
+	   |-- fabric-screen-handler-api-v1 1.3.86+b5597344d1
+	   |-- fabric-sound-api-v1 1.0.23+6573ed8cd1
+	   |-- fabric-transfer-api-v1 5.1.16+3dccd343d1
+	   \-- fabric-transitive-access-wideners-v1 6.1.0+176f9036d1
+	- fabric-language-kotlin 1.12.3+kotlin.2.0.21
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.0.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.0.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.0.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.0.21
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.25.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.5.4
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.5.4
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.7.3
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.7.3
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.7.3
+	- fabricloader 0.16.7
+	   \-- mixinextras 0.4.1
+	- faster-random 5.1.0
+	- ferritecore 7.0.0
+	- fsit 2.5.3+1.21
+	   |-- com_charleskorn_kaml_kaml-jvm 0.54.0
+	   \-- org_snakeyaml_snakeyaml-engine 2.6
+	- fullstackwatchdog 1.0.1+1.19.2-fabric
+	- invview 1.4.15-1.20.5+
+	   \-- sgui 1.5.0+1.20.5
+	- jamlib 1.0.11+1.21
+	   \-- blue_endless_jankson 1.2.3
+	- java 22
+	- krypton 0.2.8
+	   \-- com_velocitypowered_velocity-native 3.3.0-SNAPSHOT
+	- ksyxis 1.3.2
+	- lamp-cat 1.0.0
+	- ledger 1.3.4
+	   |-- fabric-permissions-api-v0 0.3.1
+	   \-- server_translations_api 2.3.1+1.21-pre2
+	- letmedespawn 1.4.4
+	- lithium 0.13.1
+	- luckperms 5.4.140
+	   \-- fabric-permissions-api-v0 0.3.1
+	- melius-vanish 1.5.7+1.21.1
+	   |-- fabric-permissions-api-v0 0.3.1
+	   |-- player-data-api 0.6.0+1.21
+	   \-- server_translations_api 2.3.1+1.21-pre2
+	- minecraft 1.21
+	- mru 1.0.2+1.21+fabric
+	- nochatreports 1.21-v2.8.0
+	- noisium 2.3.0+mc1.21-1.21.1
+	- offlineplayerteleport 1.2.0
+	- owo 0.12.15+1.21
+	   |-- io_wispforest_endec 0.1.5
+	   |-- io_wispforest_endec_gson 0.1.3
+	   |-- io_wispforest_endec_jankson 0.1.3
+	   \-- io_wispforest_endec_netty 0.1.2
+	- paxi 1.21-Fabric-5.0.0
+	   \-- org_reflections_reflections 0.10.2
+	- placeholder-api 2.4.1+1.21
+	- polymer-bundled 0.9.9+1.21
+	   |-- polymer-autohost 0.9.9+1.21
+	   |    \-- io_netty_netty-codec-http 4.1.82
+	   |-- polymer-blocks 0.9.9+1.21
+	   |-- polymer-common 0.9.9+1.21
+	   |    \-- packet_tweaker 0.5.5+1.21
+	   |-- polymer-core 0.9.9+1.21
+	   |    |-- polymer-networking 0.9.9+1.21
+	   |    |    \-- polymer-common 0.9.9+1.21
+	   |    |         \-- packet_tweaker 0.5.5+1.21
+	   |    \-- polymer-registry-sync-manipulator 0.9.9+1.21
+	   |-- polymer-resource-pack 0.9.9+1.21
+	   |    \-- polymer-common 0.9.9+1.21
+	   |         \-- packet_tweaker 0.5.5+1.21
+	   \-- polymer-virtual-entity 0.9.9+1.21
+	        \-- polymer-common 0.9.9+1.21
+	             \-- packet_tweaker 0.5.5+1.21
+	- servercore 1.5.4+1.21
+	   |-- fabric-permissions-api-v0 0.3.1
+	   |-- org_yaml_snakeyaml 2.2
+	   |-- space_arim_dazzleconf_dazzleconf-core 1.3.0-M2
+	   \-- space_arim_dazzleconf_dazzleconf-ext-snakeyaml 1.3.0-M2
+	- signedvelocity 1.2.4
+	- skipservercheck 1.0.0
+	- spark 1.10.109
+	   \-- fabric-permissions-api-v0 0.3.1
+	- stackdeobfuscator 1.4.3+08e71cc
+	   |-- net_fabricmc_mapping-io 0.6.1
+	   \-- stackdeobfuscator-common 1.4.3+08e71cc
+	- tab 4.1.8
+	- threadtweak 0.1.4+mc1.21
+	- tt20 0.7.0
+	   \-- net_snackbag_shit_shit 1.2.3
+	- viewdistancefix 1.21.1-1.0.2
+	- visualjukebox 1.0.0
+	- vmp 0.2.0+beta.7.165+1.21
+	   \-- com_ibm_async_asyncutil 0.1.0
+	- voicechat 1.21.1-2.5.24
+	   \-- fabric-key-binding-api-v1 1.0.47+0af3f5a76a
+	- worldedit 7.3.7+6929-c6af3a3
+	   \-- fabric-api-base 0.4.42+6573ed8cd1
+	- yungsapi 1.21-Fabric-5.0.0
+	   |-- org_javassist_javassist 3.29.2-GA
+	   \-- org_reflections_reflections 0.10.2
+[14:20:00] [main/WARN]: Found 1 non-fabric mod:
+	- mysql-connector-j-9.1.0.jar
+[14:20:01] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/D:/mc-servers/vinland%20fabric/libraries/net/fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/sponge-mixin-0.15.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[14:20:01] [main/INFO]: Compatibility level set to JAVA_17
+[14:20:01] [main/INFO]: Compatibility level set to JAVA_21
+[14:20:01] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[14:20:01] [main/INFO]: Global Executor Parallelism: 5 configured, 5 evaluated, 5 default evaluated
+[14:20:01] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[14:20:01] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[14:20:01] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[14:20:01] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[14:20:01] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[14:20:01] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[14:20:01] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[14:20:01] [main/INFO]: Disabling com.ishland.c2me.opts.chunk_access.mixin
+[14:20:01] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[14:20:01] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[14:20:01] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[14:20:01] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[14:20:01] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[14:20:01] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[14:20:01] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@13.0.8 (*) (defined in c2me)
+[14:20:01] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[14:20:01] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[14:20:01] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[14:20:01] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[14:20:01] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[14:20:01] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[14:20:01] [main/WARN]: Mod 'c2me' attempted to override option 'mixin.world.player_chunk_tick', which doesn't exist, ignoring
+[14:20:01] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 3 override(s) found
+[14:20:02] [main/INFO]: Successfully started async appender with [ServerGuiConsole, SysOut, File]
+[14:20:02] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[14:20:02] [main/INFO]: Loading Faster Random.
+[14:20:02] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[14:20:02] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
+[14:20:02] [main/WARN]: Force-enabling mixin 'block.hopper.worldedit_compat.WorldChunkMixin' as rule 'mixin.block.hopper.worldedit_compat' (added by mods [lithium-fabric]) enables it
+[14:20:02] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
+[14:20:02] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
+[14:20:02] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
+[14:20:02] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
+[14:20:03] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[14:20:03] [main/INFO]: ThreadTweak config initialized
+[14:20:10] [main/INFO]: Loading Collective version 7.84.
+[14:20:11] [main/INFO]: Enabled 28 bug fixes: [MC-2025, MC-7569, MC-8187, MC-30391, MC-69216, MC-88371, MC-89146, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-129909, MC-132878, MC-135971, MC-155509, MC-160095, MC-179072, MC-183990, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
+[14:20:11] [main/INFO]: Successfully Debugify'd your game!
+[14:20:11] [main/INFO]: [Dynmap] Mod Support API available
+[14:20:11] [main/INFO]: Initializing JamLib on Fabric
+[14:20:11] [main/INFO]: Compression will use Java, encryption will use Java
+[14:20:11] [main/INFO]: Ksyxis: Booting... (platform: Fabric, manual: false)
+[14:20:11] [main/INFO]: Ksyxis: Found Mixin library. (version: 0.8.7)
+[14:20:11] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it.
+[14:20:11] [main/INFO]: [STDOUT]: [Lampcat Mod] Initialized and ready!
+[14:20:11] [main/INFO]: Loading Noisium.
+[14:20:11] [main/INFO]: Don't use Forge, use Froge!
+[14:20:12] [main/INFO]: [ServerCore] Loaded V1.5.4+1.21!
+[14:20:12] [main/INFO]: Server Movement Check Disabled
+[14:20:12] [main/INFO]: Creating asynchronous mapping cache executor...
+[14:20:12] [Mappings Cache Thread #1/INFO]: Verifying cache of yarn mappings...
+[14:20:12] [Mappings Cache Thread #1/INFO]: Latest build for yarn is already cached (21 hour(s) ago, refresh in 27 hour(s))
+[14:20:12] [Mappings Cache Thread #1/INFO]: Mappings for yarn build 1.21+build.9 are already downloaded
+[14:20:12] [Mappings Cache Thread #1/INFO]: Verified cache of yarn mappings (took 2ms)
+[14:20:12] [Mappings Cache Thread #1/INFO]: Parsing yarn mappings...
+[14:20:12] [main/INFO]: Starting TT20...
+[14:20:12] [main/INFO]: (TT20) Checking for updates...
+[14:20:12] [Mappings Cache Thread #1/INFO]: Parsed yarn mappings (took 149ms)
+[14:20:12] [Mappings Cache Thread #1/INFO]: Caching yarn mappings...
+[14:20:12] [Mappings Cache Thread #1/INFO]: Cached yarn mappings (took 42ms)
+[14:20:12] [Mappings Cache Thread #1/INFO]: Cached mappings have been built (took 197ms)
+[14:20:12] [Mappings Cache Thread #1/INFO]:   Classes: 7535
+[14:20:12] [Mappings Cache Thread #1/INFO]:   Methods: 27617
+[14:20:12] [Mappings Cache Thread #1/INFO]:   Fields: 32175
+[14:20:12] [ForkJoinPool.commonPool-worker-1/INFO]: Shutting down asynchronous mapping cache executor...
+[14:20:12] [ForkJoinPool.commonPool-worker-1/INFO]: Injecting into root logger...
+[14:20:12] [main/INFO]: (TT20) Running the latest version
+[14:20:12] [main/INFO]: [voicechat] Compatibility version 18
+[14:20:13] [main/INFO]: [voicechat] Loading plugins
+[14:20:13] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[14:20:13] [main/INFO]: [voicechat] Initializing plugins
+[14:20:13] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[14:20:13] [main/INFO]: Got request to register class com.sk89q.worldedit.fabric.FabricPlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7519e1d4]
+[14:20:13] [main/INFO]: WorldEdit for Fabric (version 7.3.7+6929-c6af3a3) is loaded
+[14:20:13] [main/INFO]: Reflections took 53 ms to scan 1 urls, producing 1 keys and 3 values
+[14:20:13] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[14:20:13] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[14:20:13] [main/INFO]: Initializing Ledger 1.3.4
+[14:20:14] [main/INFO]: Loading configuration...
+[14:20:14] [main/INFO]: Started SignedVelocity
+[14:20:14] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:20:16] [Worker-Main-3/INFO]: [Dynmap] Register commands
+[14:20:16] [Worker-Main-3/INFO]: Registering commands with com.sk89q.worldedit.fabric.FabricPlatform
+[14:20:16] [main/INFO]: Loaded 1290 recipes
+[14:20:16] [main/INFO]: Loaded 1399 advancements
+[14:20:16] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 63 translation keys
+[14:20:17] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.060 ms
+[14:20:17] [IO-Worker-1/INFO]: [Polymer] Starting resource pack generation...
+[14:20:17] [Server thread/INFO]: [Dynmap] Added 20 custom biome mappings
+[14:20:17] [Server thread/INFO]: [Dynmap] Using luckperms for access control
+[14:20:17] [Server thread/INFO]: [Dynmap] Opening MySQL database 188.34.142.88:3306/plugins as map store
+[14:20:17] [Server thread/FATAL]: [Dynmap] MySQL-JDBC classes not found - MySQL data source not usable
+[14:20:17] [Server thread/FATAL]: [Dynmap] Map storage initialization failure
+[14:20:17] [Server thread/INFO]: Starting background profiler...
+[14:20:17] [Server thread/INFO]: The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[14:20:17] [Server thread/INFO]: Preparing create tables statements took 10ms
+[14:20:17] [Server thread/INFO]: Executing create tables statements took 8ms
+[14:20:17] [Server thread/INFO]: Extracting table columns took 6ms
+[14:20:17] [Server thread/INFO]: Extracting primary keys took 111ms
+[14:20:17] [Server thread/INFO]: Preparing alter table statements took 118ms
+[14:20:17] [Server thread/INFO]: Executing alter table statements took 0ms
+[14:20:17] [Server thread/INFO]: Index on table 'players' differs only in name: in db players_player_id -> in mapping players_player_id_unique
+[14:20:17] [Server thread/INFO]: Index on table 'ActionIdentifiers' differs only in name: in db ActionIdentifiers_action_identifier -> in mapping ActionIdentifiers_action_identifier_unique
+[14:20:17] [Server thread/INFO]: Index on table 'ObjectIdentifiers' differs only in name: in db ObjectIdentifiers_identifier -> in mapping ObjectIdentifiers_identifier_unique
+[14:20:17] [Server thread/INFO]: Index on table 'sources' differs only in name: in db sources_name -> in mapping sources_name_unique
+[14:20:17] [Server thread/INFO]: Index on table 'worlds' differs only in name: in db worlds_identifier -> in mapping worlds_identifier_unique
+[14:20:17] [Server thread/INFO]: Checking mapping consistence took 118ms
+[14:20:17] [Server thread/INFO]: Tables created
+[14:20:17] [DefaultDispatcher-worker-6/INFO]: Inserting 1585 registry keys into the database...
+[14:20:17] [Server thread/INFO]:         __    
+[14:20:17] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.140
+[14:20:17] [Server thread/INFO]:   |___ |      Running on Fabric - fabric@0.102.0+1.21
+[14:20:17] [Server thread/INFO]: 
+[14:20:17] [Server thread/INFO]: Loading configuration...
+[14:20:18] [Server thread/INFO]: Loading storage provider... [H2]
+[14:20:18] [Server thread/INFO]: Loading internal permission managers...
+[14:20:18] [Server thread/INFO]: Performing initial data load...
+[14:20:18] [Server thread/INFO]: Successfully enabled. (took 518ms)
+[14:20:18] [Server thread/INFO]: [TAB] Enabled in 162ms
+[14:20:18] [Server thread/INFO]: Starting minecraft server version 1.21
+[14:20:18] [Server thread/INFO]: Loading properties
+[14:20:18] [Server thread/INFO]: Default game type: SURVIVAL
+[14:20:18] [Server thread/INFO]: Generating keypair
+[14:20:18] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:20:18] [Server thread/INFO]: Using default channel type
+[14:20:18] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:20:18] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:20:18] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:20:18] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:20:18] [Server thread/INFO]: Preparing level "world"
+[14:20:19] [Server thread/INFO]: [Dynmap] Mod Support processing completed
+[14:20:20] [Server thread/INFO]: [Dynmap] Loaded 27 shaders.
+[14:20:20] [Server thread/INFO]: [Dynmap] Loaded 83 perspectives.
+[14:20:20] [Server thread/INFO]: [Dynmap] Loaded 22 lightings.
+[14:20:20] [Server thread/INFO]: [Dynmap] Starting enter/exit processing
+[14:20:21] [Server thread/WARN]: [Dynmap] Marker API has been requested, but is not enabled.  Uncomment or add 'markers' component to configuration.txt.
+[14:20:21] [Server thread/FATAL]: [Dynmap] Error loading maptype
+java.lang.reflect.InvocationTargetException: null
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:72) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at knot/org.dynmap.ConfigurationNode.createInstance(ConfigurationNode.java:348) ~[Dynmap-3.7-beta-6-fabric-1.21.jar:?]
+	at knot/org.dynmap.ConfigurationNode.createInstances(ConfigurationNode.java:362) ~[Dynmap-3.7-beta-6-fabric-1.21.jar:?]
+	at knot/org.dynmap.DynmapCore.enableCore(DynmapCore.java:668) ~[Dynmap-3.7-beta-6-fabric-1.21.jar:?]
+	at knot/org.dynmap.fabric_1_21.DynmapPlugin.onStart(DynmapPlugin.java:457) ~[Dynmap-3.7-beta-6-fabric-1.21.jar:?]
+	at knot/org.dynmap.fabric_1_21.DynmapPlugin.serverStarted(DynmapPlugin.java:241) ~[Dynmap-3.7-beta-6-fabric-1.21.jar:?]
+	at knot/org.dynmap.fabric_1_21.event.CustomServerLifecycleEvents.lambda$static$0(CustomServerLifecycleEvents.java:11) ~[Dynmap-3.7-beta-6-fabric-1.21.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.handler$zne000$dynmap$loadWorld(MinecraftServer.java:3604) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.loadWorld(MinecraftServer.java) ~[server-intermediary.jar:?]
+	at knot//MC/net.minecraft.server.dedicated.MinecraftDedicatedServer.setupServer(MinecraftDedicatedServer.java:185) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:664) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "org.dynmap.markers.MarkerAPI.getMarkerIcon(String)" because "this.api" is null
+	at knot/org.dynmap.MarkersComponent.<init>(MarkersComponent.java:57) ~[Dynmap-3.7-beta-6-fabric-1.21.jar:?]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	... 14 more
+[14:20:21] [Server thread/INFO]: [STDERR]: java.lang.reflect.InvocationTargetException
+[14:20:21] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:72)
+[14:20:21] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+[14:20:21] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+[14:20:21] [Server thread/INFO]: [STDERR]: 	at knot//org.dynmap.ConfigurationNode.createInstance(ConfigurationNode.java:348)
+[14:20:21] [Server thread/INFO]: [STDERR]: 	at knot//org.dynmap.ConfigurationNode.createInstances(ConfigurationNode.java:362)
+[14:20:21] [Server thread/INFO]: [STDERR]: 	at knot//org.dynmap.DynmapCore.enableCore(DynmapCore.java:668)
+[14:20:21] [Server thread/INFO]: [STDERR]: 	at knot//org.dynmap.fabric_1_21.DynmapPlugin.onStart(DynmapPlugin.java:457)
+[14:20:21] [Server thread/INFO]: [STDERR]: 	at knot//org.dynmap.fabric_1_21.DynmapPlugin.serverStarted(DynmapPlugin.java:241)
+[14:20:21] [Server thread/INFO]: [STDERR]: 	at knot//org.dynmap.fabric_1_21.event.CustomServerLifecycleEvents.lambda$static$0(CustomServerLifecycleEvents.java:11)
+[14:20:21] [Server thread/INFO]: [STDERR]: 	at knot//net.minecraft.server.MinecraftServer.handler$zne000$dynmap$loadWorld(MinecraftServer.java:3604)
+[14:20:21] [Server thread/INFO]: [STDERR]: 	at knot//net.minecraft.server.MinecraftServer.method_3735(MinecraftServer.java)
+[14:20:21] [Server thread/INFO]: [STDERR]: 	at knot//net.minecraft.class_3176.method_3823(class_3176.java:185)
+[14:20:21] [Server thread/INFO]: [STDERR]: 	at knot//net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:664)
+[14:20:21] [Server thread/INFO]: [STDERR]: 	at knot//net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281)
+[14:20:21] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:1570)
+[14:20:21] [Server thread/INFO]: [STDERR]: Caused by: java.lang.NullPointerException: Cannot invoke "org.dynmap.markers.MarkerAPI.getMarkerIcon(String)" because "this.api" is null
+[14:20:21] [Server thread/INFO]: [STDERR]: 	at knot//org.dynmap.MarkersComponent.<init>(MarkersComponent.java:57)
+[14:20:21] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+[14:20:21] [Server thread/INFO]: [STDERR]: 	... 14 more
+[14:20:21] [Server thread/INFO]: [Dynmap] Web server started on address 0.0.0.0:8123
+[14:20:21] [Server thread/INFO]: [Dynmap] version 3.7-SNAPSHOT is enabled - core version 3.7-SNAPSHOT-949
+[14:20:21] [Server thread/INFO]: [Dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
+[14:20:21] [Server thread/INFO]: [Dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
+[14:20:21] [Server thread/INFO]: [Dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[14:20:21] [Server thread/INFO]: [Dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[14:20:21] [Server thread/INFO]: [Dynmap] Loaded 3 maps of world 'world'.
+[14:20:21] [Server thread/INFO]: [Dynmap] Loaded 2 maps of world 'DIM1'.
+[14:20:21] [Server thread/INFO]: [Dynmap] Loaded 2 maps of world 'DIM-1'.
+[14:20:21] [Server thread/INFO]: [Dynmap] Loaded 1413 pending tile renders for world 'world'
+[14:20:21] [Server thread/INFO]: [Dynmap] Register events
+[14:20:21] [Server thread/INFO]: [Dynmap] Enabled
+[14:20:21] [Server thread/INFO]: Enforcing safe world random access
+[14:20:21] [Server thread/INFO]: Changing watch distance to 12
+[14:20:22] [DefaultDispatcher-worker-3/INFO]: Registry insert complete
+[14:20:22] [Server thread/INFO]: Changing watch distance to 12
+[14:20:22] [Server thread/INFO]: Changing watch distance to 12
+[14:20:22] [Server thread/INFO]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (modern)
+[14:20:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:20:22] [Server thread/INFO]: [Polymer] Resource pack created successfully!
+[14:20:22] [Server thread/INFO]: Time elapsed: 17 ms
+[14:20:22] [Server thread/INFO]: Done (3.761s)! For help, type "help"
+[14:20:22] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[14:20:22] [VoiceChatServerThread/INFO]: [voicechat] Voice host is '46.173.166.6:25566'
+[14:20:22] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 0.0.0.0:25566
+[14:20:23] [Server thread/INFO]: [Dynmap] Loaded 1300 pending tile renders for world 'world'
+[14:20:24] [Dynmap Render Thread/INFO]: [Dynmap] Loading resource pack standard
+[14:20:24] [Dynmap Render Thread/WARN]: [Dynmap] Resource assets/minecraft/textures/all.png for mod minecraft not found
+[14:20:25] [Dynmap Render Thread/FATAL]: [Dynmap] SQLException: Error updating Maps table
+[14:20:25] [Dynmap Render Thread/FATAL]: [Dynmap]   ErrorCode: 0, SQLState=08001
+[14:20:25] [Dynmap Render Thread/FATAL]: [Dynmap]   Message: No suitable driver found for jdbc:mysql://188.34.142.88:3306/plugins?allowReconnect=true&autoReconnect=true
+[14:20:25] [Dynmap Render Thread/FATAL]: [Dynmap]   ConnectionString: jdbc:mysql://188.34.142.88:3306/plugins?allowReconnect=true&autoReconnect=true
+[14:20:25] [Dynmap Render Thread/FATAL]: [Dynmap] SQLException: Error updating Maps table
+[14:20:25] [Dynmap Render Thread/FATAL]: [Dynmap]   ErrorCode: 0, SQLState=08001
+[14:20:25] [Dynmap Render Thread/FATAL]: [Dynmap]   Message: No suitable driver found for jdbc:mysql://188.34.142.88:3306/plugins?allowReconnect=true&autoReconnect=true
+[14:20:25] [Dynmap Render Thread/FATAL]: [Dynmap]   ConnectionString: jdbc:mysql://188.34.142.88:3306/plugins?allowReconnect=true&autoReconnect=true
+[14:20:25] [Dynmap Render Thread/FATAL]: [Dynmap] SQLException: Error updating Maps table
+[14:20:25] [Dynmap Render Thread/FATAL]: [Dynmap]   ErrorCode: 0, SQLState=08001
+[14:20:25] [Dynmap Render Thread/FATAL]: [Dynmap]   Message: No suitable driver found for jdbc:mysql://188.34.142.88:3306/plugins?allowReconnect=true&autoReconnect=true
+[14:20:25] [Dynmap Render Thread/FATAL]: [Dynmap]   ConnectionString: jdbc:mysql://188.34.142.88:3306/plugins?allowReconnect=true&autoReconnect=true
+[14:20:25] [Dynmap Render Thread/FATAL]: [Dynmap] SQLException: Error updating Maps table
+[14:20:25] [Dynmap Render Thread/FATAL]: [Dynmap]   ErrorCode: 0, SQLState=08001
+[14:20:25] [Dynmap Render Thread/FATAL]: [Dynmap]   Message: No suitable driver found for jdbc:mysql://188.34.142.88:3306/plugins?allowReconnect=true&autoReconnect=true
+[14:20:25] [Dynmap Render Thread/FATAL]: [Dynmap]   ConnectionString: jdbc:mysql://188.34.142.88:3306/plugins?allowReconnect=true&autoReconnect=true
+[14:20:25] [Dynmap Render Thread/FATAL]: [Dynmap] SQLException: Error updating Maps table
+[14:20:25] [Dynmap Render Thread/FATAL]: [Dynmap]   ErrorCode: 0, SQLState=08001
+[14:20:25] [Dynmap Render Thread/FATAL]: [Dynmap]   Message: No suitable driver found for jdbc:mysql://188.34.142.88:3306/plugins?allowReconnect=true&autoReconnect=true
+[14:20:25] [Dynmap Render Thread/FATAL]: [Dynmap]   ConnectionString: jdbc:mysql://188.34.142.88:3306/plugins?allowReconnect=true&autoReconnect=true
+[14:20:26] [Dynmap Render Thread/FATAL]: [Dynmap] SQLException: Error updating Maps table
+[14:20:26] [Dynmap Render Thread/FATAL]: [Dynmap]   ErrorCode: 0, SQLState=08001
+[14:20:26] [Dynmap Render Thread/FATAL]: [Dynmap]   Message: No suitable driver found for jdbc:mysql://188.34.142.88:3306/plugins?allowReconnect=true&autoReconnect=true
+[14:20:26] [Dynmap Render Thread/FATAL]: [Dynmap]   ConnectionString: jdbc:mysql://188.34.142.88:3306/plugins?allowReconnect=true&autoReconnect=true
+[14:20:26] [Dynmap Render Thread/FATAL]: [Dynmap] SQLException: Error updating Maps table
+[14:20:26] [Dynmap Render Thread/FATAL]: [Dynmap]   ErrorCode: 0, SQLState=08001
+[14:20:26] [Dynmap Render Thread/FATAL]: [Dynmap]   Message: No suitable driver found for jdbc:mysql://188.34.142.88:3306/plugins?allowReconnect=true&autoReconnect=true
+[14:20:26] [Dynmap Render Thread/FATAL]: [Dynmap]   ConnectionString: jdbc:mysql://188.34.142.88:3306/plugins?allowReconnect=true&autoReconnect=true
+[14:20:26] [Dynmap Render Thread/FATAL]: [Dynmap] SQLException: Error updating Maps table
+[14:20:26] [Dynmap Render Thread/FATAL]: [Dynmap]   ErrorCode: 0, SQLState=08001
+[14:20:26] [Dynmap Render Thread/FATAL]: [Dynmap]   Message: No suitable driver found for jdbc:mysql://188.34.142.88:3306/plugins?allowReconnect=true&autoReconnect=true
+[14:20:26] [Dynmap Render Thread/FATAL]: [Dynmap]   ConnectionString: jdbc:mysql://188.34.142.88:3306/plugins?allowReconnect=true&autoReconnect=true
+[14:20:26] [Dynmap Render Thread/FATAL]: [Dynmap] SQLException: Error updating Maps table
+[14:20:26] [Dynmap Render Thread/FATAL]: [Dynmap]   ErrorCode: 0, SQLState=08001
+[14:20:26] [Dynmap Render Thread/FATAL]: [Dynmap]   Message: No suitable driver found for jdbc:mysql://188.34.142.88:3306/plugins?allowReconnect=true&autoReconnect=true
+[14:20:26] [Dynmap Render Thread/FATAL]: [Dynmap]   ConnectionString: jdbc:mysql://188.34.142.88:3306/plugins?allowReconnect=true&autoReconnect=true
+[14:20:26] [Dynmap Render Thread/FATAL]: [Dynmap] SQLException: Error updating Maps table
+[14:20:26] [Dynmap Render Thread/FATAL]: [Dynmap]   ErrorCode: 0, SQLState=08001
+[14:20:26] [Dynmap Render Thread/FATAL]: [Dynmap]   Message: No suitable driver found for jdbc:mysql://188.34.142.88:3306/plugins?allowReconnect=true&autoReconnect=true
+[14:20:26] [Dynmap Render Thread/FATAL]: [Dynmap]   ConnectionString: jdbc:mysql://188.34.142.88:3306/plugins?allowReconnect=true&autoReconnect=true
+[14:20:27] [Dynmap Render Thread/FATAL]: [Dynmap] SQLException: Error updating Maps table
+[14:20:27] [Dynmap Render Thread/FATAL]: [Dynmap]   ErrorCode: 0, SQLState=08001
+[14:20:27] [Dynmap Render Thread/FATAL]: [Dynmap]   Message: No suitable driver found for jdbc:mysql://188.34.142.88:3306/plugins?allowReconnect=true&autoReconnect=true
+[14:20:27] [Dynmap Render Thread/FATAL]: [Dynmap]   ConnectionString: jdbc:mysql://188.34.142.88:3306/plugins?allowReconnect=true&autoReconnect=true
+[14:20:27] [Dynmap Render Thread/FATAL]: [Dynmap] SQLException: Error updating Maps table
+[14:20:27] [Dynmap Render Thread/FATAL]: [Dynmap]   ErrorCode: 0, SQLState=08001
+[14:20:27] [Dynmap Render Thread/FATAL]: [Dynmap]   Message: No suitable driver found for jdbc:mysql://188.34.142.88:3306/plugins?allowReconnect=true&autoReconnect=true
+[14:20:27] [Dynmap Render Thread/FATAL]: [Dynmap]   ConnectionString: jdbc:mysql://188.34.142.88:3306/plugins?allowReconnect=true&autoReconnect=true
+[14:20:27] [Dynmap Render Thread/FATAL]: [Dynmap] SQLException: Error updating Maps table
+[14:20:27] [Dynmap Render Thread/FATAL]: [Dynmap]   ErrorCode: 0, SQLState=08001
+[14:20:27] [Dynmap Render Thread/FATAL]: [Dynmap]   Message: No suitable driver found for jdbc:mysql://188.34.142.88:3306/plugins?allowReconnect=true&autoReconnect=true
+[14:20:27] [Dynmap Render Thread/FATAL]: [Dynmap]   ConnectionString: jdbc:mysql://188.34.142.88:3306/plugins?allowReconnect=true&autoReconnect=true
+[14:20:27] [Dynmap Render Thread/FATAL]: [Dynmap] SQLException: Error updating Maps table
+[14:20:27] [Dynmap Render Thread/FATAL]: [Dynmap]   ErrorCode: 0, SQLState=08001
+[14:20:27] [Dynmap Render Thread/FATAL]: [Dynmap]   Message: No suitable driver found for jdbc:mysql://188.34.142.88:3306/plugins?allowReconnect=true&autoReconnect=true
+[14:20:27] [Dynmap Render Thread/FATAL]: [Dynmap]   ConnectionString: jdbc:mysql://188.34.142.88:3306/plugins?allowReconnect=true&autoReconnect=true
+[14:20:28] [Dynmap Render Thread/FATAL]: [Dynmap] SQLException: Error updating Maps table
+[14:20:28] [Dynmap Render Thread/FATAL]: [Dynmap]   ErrorCode: 0, SQLState=08001
+[14:20:28] [Dynmap Render Thread/FATAL]: [Dynmap]   Message: No suitable driver found for jdbc:mysql://188.34.142.88:3306/plugins?allowReconnect=true&autoReconnect=true
+[14:20:28] [Dynmap Render Thread/FATAL]: [Dynmap]   ConnectionString: jdbc:mysql://188.34.142.88:3306/plugins?allowReconnect=true&autoReconnect=true
+[14:20:28] [Dynmap Render Thread/FATAL]: [Dynmap] SQLException: Error updating Maps table
+[14:20:28] [Dynmap Render Thread/FATAL]: [Dynmap]   ErrorCode: 0, SQLState=08001
+[14:20:28] [Dynmap Render Thread/FATAL]: [Dynmap]   Message: No suitable driver found for jdbc:mysql://188.34.142.88:3306/plugins?allowReconnect=true&autoReconnect=true
+[14:20:28] [Dynmap Render Thread/FATAL]: [Dynmap]   ConnectionString: jdbc:mysql://188.34.142.88:3306/plugins?allowReconnect=true&autoReconnect=true
+[14:20:28] [Server thread/INFO]: [Dynmap] Unloaded 10 components.
+[14:20:28] [Server thread/INFO]: [Dynmap] Stopping map renderer...
+[14:20:28] [Server thread/INFO]: [Dynmap] Saved 1404 pending tile renders in world 'world'
+[14:20:28] [Dynmap Render Thread/FATAL]: [Dynmap] SQLException: Error updating Maps table
+[14:20:28] [Dynmap Render Thread/FATAL]: [Dynmap]   ErrorCode: 0, SQLState=08001
+[14:20:28] [Dynmap Render Thread/FATAL]: [Dynmap]   Message: No suitable driver found for jdbc:mysql://188.34.142.88:3306/plugins?allowReconnect=true&autoReconnect=true
+[14:20:28] [Dynmap Render Thread/FATAL]: [Dynmap]   ConnectionString: jdbc:mysql://188.34.142.88:3306/plugins?allowReconnect=true&autoReconnect=true
+[14:20:28] [Server thread/INFO]: [Dynmap] Disabled
+[14:20:28] [Server thread/INFO]: Starting shutdown process...
+[14:20:28] [Server thread/INFO]: Closing storage...
+[14:20:28] [Server thread/INFO]: Goodbye!
+[14:20:28] [Server thread/INFO]: [TAB] Disabled in 0ms
+[14:20:28] [Server thread/INFO]: Stopping server
+[14:20:28] [Server thread/INFO]: Saving players
+[14:20:28] [Server thread/INFO]: Saving worlds
+[14:20:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:20:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[14:20:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[14:20:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:20:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:20:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:20:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:20:28] [Server thread/INFO]: Successfully drained database queue

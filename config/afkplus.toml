@@ -1,0 +1,46 @@
+[afkPlusOptions]
+enableAfkCommand = true
+enableNoAfkCommand = true
+enableAfkInfoCommand = true
+enableAfkExCommand = true
+afkCommandPermissions = 0
+noAfkCommandPermissions = 0
+afkInfoCommandPermissions = 2
+afkExCommandPermissions = 0
+afkPlusCommandPermissions = 3
+afkTimeoutString = "<i><gray>timeout<r>"
+[packetOptions]
+timeoutSeconds = 10
+resetOnMovement = false
+resetOnLook = false
+disableDamage = false
+disableDamageCooldown = 15
+bypassSleepCount = true
+bypassInsomnia = true
+afkKickEnabled = false
+afkKickNonSurvival = false
+afkKickTimer = 3600
+afkKickSafePermissions = 3
+[PlaceholderOptions]
+afkPlaceholder = "<i><gray>[AFK%afkplus:invulnerable%]<r>"
+afkPlusNamePlaceholderAfk = "<i><gray>[AFK%afkplus:invulnerable%] %player:displayname_unformatted%<r>"
+afkPlusNamePlaceholder = "%player:displayname%"
+afkDurationPlaceholderFormatting = "<green>"
+afkTimePlaceholderFormatting = "<green>"
+afkReasonPlaceholderFormatting = ""
+afkDurationPretty = false
+afkInvulnerablePlaceholder = ":<red>I<r>"
+[playerListOptions]
+enableListDisplay = true
+afkPlayerName = "<i><gray>[AFK%afkplus:invulnerable%] %player:displayname%<r>"
+[messageOptions]
+enableMessages = true
+whenAfk = "%player:displayname% <yellow>is now AFK<r>"
+whenReturn = "%player:displayname% <yellow>is no longer AFK<r>"
+prettyDuration = true
+defaultReason = "<gray>poof!<r>"
+whenDamageDisabled = "%player:displayname% <yellow>is marked as <red>Invulnerable.<r>"
+whenDamageEnabled = "%player:displayname% <yellow>is no longer <red>Invulnerable.<r>"
+displayDuration = true
+afkKickMessage = "<copper>AFK beyond the allowed time limit set by your Administrator.<r>"
+whenKicked = "%player:displayname% <copper>was kicked for being AFK.<r>"

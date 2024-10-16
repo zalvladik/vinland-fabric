@@ -1,0 +1,14 @@
+[
+  {
+    "uuid": "ce104864-945e-38e9-9224-0192c3eddd37",
+    "name": "Mumichka",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "f42c488e-5b3b-3b98-817b-2526f4673fe1",
+    "name": "France",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
